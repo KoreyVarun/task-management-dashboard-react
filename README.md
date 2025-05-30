@@ -50,15 +50,13 @@ A modern, responsive Task Management Dashboard built with React. This project de
 - Click "Delete" to remove a task.
 - All changes are saved automatically in your browser's localStorage.
 
-## Submission
-- **Option A:** Submit as a compressed archive (exclude `node_modules`, `.git`, and build artifacts).
-- **Option B:** Submit as a GitHub repository with complete project history.
-- File naming: `LastName_FirstName_TaskDashboard_React.zip`
-- Repository name: `task-management-dashboard-react`
+
 
 ## Author
 - Korey Varun
 
 ---
+
+// Handles task form submission
 
 
