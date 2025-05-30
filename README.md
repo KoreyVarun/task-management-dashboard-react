@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Task Management Dashboard (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive Task Management Dashboard built with React. This project demonstrates proficiency in component architecture, state management, and user interface design.
 
-## Available Scripts
+## Features
+- Responsive dashboard for managing tasks
+- Add, edit, and delete tasks
+- Task properties: Title, Description, Status (Todo, In Progress, Done), Priority (Low, Medium, High), Due Date, Assigned User
+- Clean, mobile-friendly UI
+- Status-based visual indicators (colors/icons)
+- Form validation for task creation/editing
+- Local state management with data persistence in localStorage (no backend required)
 
-In the project directory, you can run:
+## Components
+- **TaskList**: Displays a list of tasks
+- **TaskCard**: Shows individual task details and actions
+- **TaskForm**: Handles task creation and editing with validation
+- **StatusIndicator**: Visual indicator for task status
 
-### `npm start`
+## Technical Details
+- Built with React functional components and hooks (`useState`, `useEffect`)
+- State management using `useState` and `useEffect`
+- At least 3 reusable components
+- No backend; all data is stored in localStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js and npm installed
 
-### `npm test`
+### Installation
+1. Clone the repository or extract the ZIP archive.
+2. Navigate to the project directory:
+   ```bash
+   cd task-dashboard
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+- Use the form to add new tasks.
+- Click "Edit" on a task to modify it.
+- Click "Delete" to remove a task.
+- All changes are saved automatically in your browser's localStorage.
 
-### `npm run build`
+## Submission
+- **Option A:** Submit as a compressed archive (exclude `node_modules`, `.git`, and build artifacts).
+- **Option B:** Submit as a GitHub repository with complete project history.
+- File naming: `LastName_FirstName_TaskDashboard_React.zip`
+- Repository name: `task-management-dashboard-react`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
+- Korey Varun
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize this README with your name and any additional details!
